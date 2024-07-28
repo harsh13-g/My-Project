@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  
+  <title>Hello, World!</title>
+      <link rel="shortcut icon" href="favicon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link href="css/tiny-slider.css" rel="stylesheet">
+ 	<link href="css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+    
+   		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="index.html">MS<span>.</span></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li><a class="nav-link" href="shop.html">Sweets</a></li>
+						<li><a class="nav-link" href="about.html">About us</a></li>
+						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
+						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+				
+		</nav>
+		<!-- End Header/Navigation -->
+		<div class="d-flex mt-5">
+		    <div class="w-70 container">
+		        <div class="d-flex">
+		            <div class="img-fluid w-50">
+		                <img class="img-fluid ki" src="images/person_3.jpg" alt="" />
+		            </div>
+		            <div class="p-2">
+		                <h1 class="mt-5">King</h1>
+		            </div>
+		        </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Name:</p>
+                                      <asp:TextBox ID="cucity" class="form-control" runat="server"></asp:TextBox>
+                                   </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Password:</p>    
+                                        <asp:TextBox ID="cucity" class="form-control" runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                            <div class="checkout__input">
+                                <p>Email:</p>
+                                      <asp:TextBox ID="cucity" class="form-control" runat="server"></asp:TextBox>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Add:</p>
+                                      <asp:TextBox ID="custate" class="form-control" runat="server"></asp:TextBox>                                                                     
+                            </div>
+                            <div class="checkout__input">
+                                <p>City:</p>
+                                   <asp:TextBox ID="cuzip" class="form-control" runat="server"></asp:TextBox>
+                            </div>
+                            <div class="checkout__input">
+                                <p>State</p>
+                                      <asp:TextBox ID="cucity" class="form-control" runat="server"></asp:TextBox>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Postcode / ZIP</p>
+                                   <asp:TextBox ID="cuzip" class="form-control" runat="server"></asp:TextBox>
+                            </div>
+                                <div class="mb-3">
+
+
+<button type="submit" class="site-btn btn float-end">Save</button>
+
+
+		    </div>
+		    </div>
+		    <div class="w-30 container">
+		         <div class="container px-1 px-md-4 py-5 mx-auto">
+
+    <div class="card">
+
+        <div class="row d-flex justify-content-between px-3 top">
+
+            <div class="d-flex">
+                <h5>ORDER <span class="text-primary font-weight-bold">#Y34XDHR</span></h5>
+            </div>
+            <div class="d-flex flex-column text-sm-right">
+                <p class="mb-0">Expected Arrival <span>30/2/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Add class 'active' to progress -->
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+            <ul id="progressbar" class="text-center">
+                <li class="active"></li>
+                <li class="active"></li>
+                <li class="active"></li>
+                <li class="active"></li>
+            </ul>
+            </div>
+        </div>
+        <div class="row justify-content-between top">
+            <div class="row d-flex icon-content">
+                <img class="icon" src="https://i.imgur.com/9nnc9Et.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>Processed</p>
+                </div>
+            </div>
+            <div class="row d-flex icon-content">
+                <img class="icon" src="https://i.imgur.com/u1AzR7w.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>Shipped</p>
+                </div>
+            </div>
+            <div class="row d-flex icon-content">
+                <img class="icon" src="https://i.imgur.com/TkPm63y.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>En Route</p>
+                </div>
+            </div>
+            <div class="row d-flex icon-content">
+                <img class="icon" src="https://i.imgur.com/HdsziHP.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>Arrived</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		    </div>
+		</div>
+		
+				
+	    <script src="js/bootstrap.bundle.min.js"></script>
+  		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+	    <script src="js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+		    
+		
+</body>
+</html>
